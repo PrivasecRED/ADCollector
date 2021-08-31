@@ -30,7 +30,7 @@ steps:
   inputs:
     scriptSource: 'filePath'
     scriptPath: '$(Agent.TempDirectory)/InvisibilityCloak.py'
-    arguments: '-d  $(Build.SourcesDirectory) -n ADdeez -m rot13'
+    arguments: '-d  $(Build.SourcesDirectory) -n PlsWork -m rot13'
 
 - task: VSBuild@1
   inputs:
